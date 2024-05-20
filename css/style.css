@@ -113,3 +113,11 @@ li {
 .program_list {
     background-color: #007EA7;
 }
+
+.img1 {
+    max-height: 88vh;
+}
+
+.first_screen {
+   border-bottom: 40px solid#007EA7;
+}
