@@ -146,3 +146,39 @@ li {
 .custom-bg-blue {
     background-color: #00A8E8;
 }
+.img2 {
+    position: relative;
+    width: 300px;
+    height: 420px;
+    right: 1px;
+    top: 50px;
+}
+.program {
+    position: relative;
+    width: 85%;
+    height: 9%;
+    background-color: #00A8E8; 
+    bottom: 78%;
+    box-shadow: 3px 5px 3px 3px rgba(63, 57, 57, 0.2);
+} 
+.program1 {
+    position: relative;
+    top: 10px;
+    color: #FFFFFF;
+    right: 0%;
+}
+.program2 {
+    position: relative;
+    width: 70%;
+    height: 7%;
+    background-color: #00A8E8;
+    bottom: 19px;
+    left: 90px;
+    box-shadow: 0px 5px 3px 3px rgba(63, 57, 57, 0.2);
+}
+.program3 {
+    position: relative;
+    color: #FFFFFF;
+    left: 85px;
+    top: 0px;
+}
