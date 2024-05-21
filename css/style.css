@@ -146,3 +146,43 @@ li {
 .custom-bg-blue {
     background-color: #00A8E8;
 }
+
+
+
+.kindergarten{
+    height: 60%;
+    width: 100%;
+    margin: 85px auto;
+}
+
+.box1{
+    position: relative;
+    width: 80%;
+    height: 6.5%;
+    background-color:#FFFFFF;
+    bottom: 85%;
+    box-shadow: 3px 5px 3px 3px rgb(63, 57, 57, 0.2);
+}
+
+.text1{
+    color: #00A8E8;
+    text-align: center;
+}
+
+
+.box2{
+    position: absolute;
+    height: 100%;
+    width: 80%;
+    background-color: #FFFFFF;
+    margin-top: 140%;
+    left: 45%;
+    box-shadow: -4px 10px 3px 0px rgb(63, 57, 57, 0.2);
+    
+}
+
+.text2{
+    color: #00A8E8;
+    text-align: center;
+
+}
