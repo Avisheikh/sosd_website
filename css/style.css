@@ -111,13 +111,38 @@ li {
 }
 
 .program_list {
+    display: flex;
+    justify-content: center;
     background-color: #007EA7;
+    height: 100vh;
 }
 
 .img1 {
-    max-height: 88vh;
+    width: 108%;
+    height: max-content;
 }
 
 .first_screen {
-   border-bottom: 40px solid#007EA7;
+    overflow: hidden;
+    border-bottom: 40px solid#007EA7;
+}
+
+.program_list_box {
+    width: 30rem;
+    height: 50rem;
+    margin-top: 10rem;
+    border-radius: 3.4rem;
+    box-shadow: 2px 2px 8px 4px rgba(0, 0, 0, 0.2);
+}
+
+.program_list_box:nth-child(-n+3) {
+    margin-left: 22px;
+}
+
+.custom-bg-white {
+    background-color: #FFFFFF;
+}
+
+.custom-bg-blue {
+    background-color: #00A8E8;
 }
