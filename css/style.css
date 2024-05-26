@@ -146,3 +146,39 @@ li {
 .custom-bg-blue {
     background-color: #00A8E8;
 }
+.program_img{
+    position: relative;
+    width: 90%;
+    height: 60%;
+    left: 17px;
+    top: 100px;
+    
+}
+.program_box{
+    position:relative;
+    width: 80%;
+    height: 7%;
+    background-color:#FFFFFF;
+    bottom:250px;
+    box-shadow: 3px 5px 3px 3px rgb(63, 57, 57, 0.2);
+}
+.program_h1{
+    color: #00A8E8;
+    text-align: center;
+    font-size: 30px;
+}
+.program_box1{
+    position:relative;
+    width: 80%;
+    height: 7%;
+    background-color:#FFFFFF;
+    margin-top: 70px;
+    left: 60px;
+    text-align: center;
+    box-shadow:  -3px 5px 3px 3px rgb(63, 57, 57, 0.2);
+}
+.program_h2{
+    color: #00A8E8;
+    text-align: center;
+    font-size: 30px;
+}
