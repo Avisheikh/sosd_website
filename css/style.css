@@ -229,3 +229,60 @@ li {
 }
 
 
+.primary {
+    position: absolute;
+    height: 40;
+    width: 35%;
+    border-radius: 9%;
+    top: 232%;
+    left: 60%;
+    box-shadow:70px -90px #00A8E8;
+    left: 55%;
+}
+
+.primary2 {
+    height: 100vh;
+    background-color: #00A8E8;
+    width: 100vh;
+}
+
+.e1 {
+    position: absolute;
+    height: 2%;
+    width: 100%;
+    top: 232%;
+    color: #fff;
+    font-size: 670%;
+    left: 10%;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    
+}
+
+.e2 {
+    position: absolute;
+    height: 6%; 
+    width: 100%;
+    color: #fff;
+    left: 15%;
+    font-size: 280%;
+    top: 242%;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.e3 {
+    position: absolute;
+    height: 20px;
+    width:  499px;
+    font-size: 20px;
+    color: #fff;
+    left: 10%;
+    top: 248%;
+} 
+
+.content {
+    position: absolute;
+    height: 4%;
+    width: 100%;
+    left: 0%;
+}
+
