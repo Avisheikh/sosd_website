@@ -180,9 +180,69 @@ li {
     .program_list {
         height: 78vh;
     }
-
-    
 }
+
+@media only screen and (max-width: 960px) {
+    .program_list_box:nth-child(-n+3) {
+        margin-left: -180px;
+    }
+
+    .program_list {
+        min-height: 82vh;
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+    .program_list {
+        min-height: 94vh;
+    }
+}
+
+
+
+@media only screen and (max-width: 700px) {
+    .program_list_box:nth-child(-n+3) {
+        margin-left: -50px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .program_list_box:nth-child(-n+3) {
+        margin-left: -130px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .program_list_box:nth-child(-n+3) {
+        margin-left: -26px;
+    }
+
+    .program_list {
+        min-height: 148vh;
+    }
+}
+
+@media only screen and (max-width: 398px) {
+    .program_list_box:nth-child(-n+3) {
+        margin-left: -48px;
+    }
+
+    .program_list {
+        min-height: 162vh;
+    }
+}
+
+@media only screen and (max-width: 378px) {
+    .program_list_box:nth-child(-n+3) {
+        margin-left: -48px;
+    }
+
+    .program_list {
+        min-height: 206vh;
+    }
+}
+
 
 .custom-bg-white {
     background-color: #FFFFFF;
