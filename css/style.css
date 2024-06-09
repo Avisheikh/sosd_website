@@ -180,9 +180,69 @@ li {
     .program_list {
         height: 78vh;
     }
-
-    
 }
+
+@media only screen and (max-width: 960px) {
+    .program_list_box:nth-child(-n+3) {
+        margin-left: -180px;
+    }
+
+    .program_list {
+        min-height: 82vh;
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+    .program_list {
+        min-height: 94vh;
+    }
+}
+
+
+
+@media only screen and (max-width: 700px) {
+    .program_list_box:nth-child(-n+3) {
+        margin-left: -50px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .program_list_box:nth-child(-n+3) {
+        margin-left: -130px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .program_list_box:nth-child(-n+3) {
+        margin-left: -26px;
+    }
+
+    .program_list {
+        min-height: 148vh;
+    }
+}
+
+@media only screen and (max-width: 398px) {
+    .program_list_box:nth-child(-n+3) {
+        margin-left: -48px;
+    }
+
+    .program_list {
+        min-height: 162vh;
+    }
+}
+
+@media only screen and (max-width: 378px) {
+    .program_list_box:nth-child(-n+3) {
+        margin-left: -48px;
+    }
+
+    .program_list {
+        min-height: 206vh;
+    }
+}
+
 
 .custom-bg-white {
     background-color: #FFFFFF;
@@ -307,6 +367,18 @@ li {
     border-radius: 40px;
     box-shadow: -50px -50px 0px 0px rgb( 0, 126, 167);
 }
+@media only screen and (max-width:600px) {
+    .program_image{
+        width: 35rem;
+        margin-left: 6rem;
+    }
+}
+
+@media only screen and (max-width:430px) {
+    .program_image {
+        box-shadow: -30px -30px 0px 0px rgb( 0, 126, 167);
+    }    
+}
 
 
 .program_detail_heading {
@@ -341,6 +413,36 @@ li {
     font-size: 1.8rem;
     width: 78%;
     line-height: 1.6 ;
+
+}
+
+@media only screen and (max-width: 1200px) {
+    .program_image {
+        width: 68%;
+        height: 24%;
+    }
+
+    .program_detail_container {
+        height: 80vh;
+    }
+}
+
+@media only screen and (max-width:990px) {
+
+    .program_image {
+        width: 68%;
+        height: 62%;
+        margin-top: 4rem;
+    }
+
+    .program_detail_text_col h2{
+        font-size: 3rem;
+    }
+
+    .program_detail_text_col p {
+        font-size: 2.4rem;
+        width: 100%;    
+    }
 
 }
 
@@ -415,5 +517,26 @@ li {
         right: 0;
         padding: 50px;
     }
+}
+
+@media only screen and (max-width: 390px) {
+
+    .program_detail_heading{
+        text-align: center;
+    }
+        
+    .program_detail_heading h1{
+        font-size: 6rem;   
+    }
+
+    .program_detail_heading h2{
+        font-size:2.7rem ;
+    }
+
+    .program_detail_text_col p{
+        font-size: 1.8rem;
+        text-align: center;
+    }
+    
 }
 
