@@ -418,3 +418,7 @@ button{
 .send_message_button{
     border: 4rem;
 }
+
+form input {
+    height: 4rem;
+}
