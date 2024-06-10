@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Medin Query</title>
+    <style>
+      #parent{
+        height: 100px;
+        width: 70%;
+        background-color: gray;
+        float:left;
+        font-size: 80px;
+      }
+      #child{
+        height: 100px;
+        width: 30%;
+        background-color: blueviolet;
+        float: left;
+        font-size: 80px;
+      }
+      /* all,screen, */
+      @media (100px<= width <=400px){ 
+       #parent{
+        width:100%;
+       }
+       #child{
+            width: 100%;
+            font-size: 50px;
+       }
+    }
+    </style>
+    </head>
+    <body>
+      <div id="parent">first div</div>
+      <div id="child">second div</div>
+    </body>
+</html>
