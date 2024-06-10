@@ -15,14 +15,14 @@
 
     <!-- navigaiton menu -->
     <div class="navigation">
-        <nav class="navigation_nav">
+        <div class="logo">
+            <a href="#">SOSD</a>
+        </div>
+        <nav class="navigation_nav mt-3">
             <ul class="navigation_list">
-                <span class="left_list">
+                <span class="left_list ">
                     <li><a href="#">HOME</a></li>
                     <li><a href="#">ACADEMICS</a></li>  
-                </span>
-                <span class="logo">
-                    <li><a href="#">SOSD</a></li>
                 </span>
                 <span class="right_list">
                     <li><a href="#">ABOUT US</a></li>
@@ -30,125 +30,130 @@
                 </span>
             </ul>
         </nav>
+        <div class="hamburger-container">
+            <i class="fas fa-bars hamburger mt-3"></i>
+        </div>
     </div>
+
+    
+    
 
     <!-- first screen -->
     <div class="row first_screen">
-        <div class="col ">
+        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
             <img src="..//sosd_website/img/1.jpg" class="img1 ">
         </div>
-        <div class="col d-flex align-items-center justify-content-center">
-            <div class="first_screen_text">
+        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 d-flex align-items-center justify-content-center">
+            <div class="first_screen_text ms-5">
                 <h1>School of Social Development</h1>
-                <h2>Empowering Bodgaun</h2>
+                <h2 class="mt-2">Empowering Bodgaun</h2>
                 <p>Transforming Lives Through Education</p>
-                <button class="gallery_btn"> GALLERY </button>
+                <a href="../sosd_website/stories page/stories.html"><button class="gallery_btn mt-4">STORIES</button></a>
             </div>
         </div>
     </div>
 
+        <!-- thrid screen -->
+        <div class="thrid_screen">
+            <div class="slide">
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" >
+                    <div class="carousel-inner">
+                      <div class="carousel-item active" data-bs-interval="600">
+                        <img src="../sosd_website/img/sosd_matters/3.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="../sosd_website/img/sosd_matters/1.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="../sosd_website/img/sosd_matters/5.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="../sosd_website/img/sosd_matters/4.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="../sosd_website/img/sosd_matters/2.jpg" class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+            </div>
+            <div class="container thrid_screen-texts mt-5 mb-5">
+                <h1>Why SOSD Matters in Bodgaun</h1>
+                <h2 class="ms-3 mt-4">Improving Educational System</h2>
+                <p class="ms-3">At SOSD, we weave education into the fabric of existence, expanding knowledge and understanding. 
+                    We cultivate a deep love for learning, showing youth that education is the cornerstone of a brighter future. 
+                    Our efforts help local schools thrive, boost attendance, and transform curiosity into wisdom. 
+                    We empower non-profits with the tools to maximize their social impact, fostering a community where every dreamer can drive change.
+                </p>
+            </div>
+        </div>
+
     <!-- second screen -->
-    <div class="program_list d-flex justify-content-center align-items-center">
-        <div class="row">
-            <div class="col">
+    <div class="program_list row d-flex justify-content-center align-items-center ">
+
+            <div class="col-lg-3 col-md-2 mt-5 col-sm-4 first_list_box">
                 <div class="program_list_box custom-bg-blue">
                     <div class="program_name_box-left custom-bg-white text-center">
                         <h1 class="program_name_box-heading pt-2 custom-text-blue">IT PROGRAM</h1>
                    </div>  
-                   <img class="primary_level_img p-4 mt-4" src="../sosd_website/img/5.png">
-                   <div class="program_name_box-right float-end custom-bg-white">
+                   <img class="primary_level_img p-4 mt-5 img-fluid" src="../sosd_website/img/5.png">
+                   <div class="program_name_box-right float-end custom-bg-white mt-4">
                      <h1 class="program_name_box-heading pt-2 text-center custom-text-blue">VIEW</h1>
                    </div>
                 </div>
             </div>
-            <div class="col">
+
+            <div class="col-lg-3 mt-5 col-md-2 col-sm-4 second_list_box">
                 <div class="program_list_box custom-bg-white">
                     <div class="program_name_box-left text-center custom-bg-blue">
                         <h1 class="program_name_box-heading pt-2 text-white">DANCE PROGRAM</h1>
                    </div>  
-                   <img class="primary_level_img p-4 mt-4" src="../sosd_website/img/3.png">
-                   <div class="program_name_box-right float-end custom-bg-blue">
+                   <img class="primary_level_img p-4 mt-5 img-fluid" src="../sosd_website/img/3.png">
+                   <div class="program_name_box-right float-end custom-bg-blue mt-4">
                      <h1 class="program_name_box-heading pt-2 text-center text-white">VIEW</h1>
                    </div>
                 </div>
             </div>
-            <div class="col">
+            <div class="col-lg-3 mt-5 col-md-2 col-sm-4 third_list_box">
                 <div class="program_list_box custom-bg-blue">
                     <div class="program_name_box-left custom-bg-white text-center">
                         <h1 class="program_name_box-heading pt-2 custom-text-blue">KINDERGARTEN</h1>
                    </div>  
-                   <img class="primary_level_img p-4 mt-4" src="../sosd_website/img/4.png">
-                   <div class="program_name_box-right float-end custom-bg-white">
+                   <img class="primary_level_img p-4 mt-5 img-fluid" src="../sosd_website/img/4.png">
+                   <div class="program_name_box-right float-end custom-bg-white mt-4">
                      <h1 class="program_name_box-heading pt-2 text-center custom-text-blue">VIEW</h1>
                    </div>
                 </div>
             </div>
-            <div class="col">
+            <div class="col-lg-3 mt-5 col-md-2 col-sm-4 fourth_list_box">
                 <div class="program_list_box custom-bg-white">
                     <div class="program_name_box-left text-center custom-bg-blue">
                         <h1 class="program_name_box-heading pt-2 text-white">PRIMARY LEVEL</h1>
                    </div>  
-                   <img class="primary_level_img p-4 mt-4" src="../sosd_website/img/2.png">
-                   <div class="program_name_box-right float-end custom-bg-blue">
+                   <img class="primary_level_img p-4 mt-5 img-fluid" src="../sosd_website/img/2.png">
+                   <div class="program_name_box-right float-end custom-bg-blue mt-4">
                      <h1 class="program_name_box-heading pt-2 text-center text-white">VIEW</h1>
                    </div>
                 </div>
             </div>
-        </div>
-    </div>
 
-
-    <!-- thrid screen -->
-
-    <div class="thrid_screen">
-        <div class="slide">
-            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" >
-                <div class="carousel-inner">
-                  <div class="carousel-item active" data-bs-interval="600">
-                    <img src="../sosd_website/img/sosd_matters/3.jpg" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="../sosd_website/img/sosd_matters/1.jpg" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="../sosd_website/img/sosd_matters/5.jpg" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="../sosd_website/img/sosd_matters/4.jpg" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="../sosd_website/img/sosd_matters/2.jpg" class="d-block w-100" alt="...">
-                  </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
-              </div>
-        </div>
-        <div class="container thrid_screen-texts mt-4 text-center">
-            <h1>Why SOSD Matters in Bodgaun</h1>
-            <h2 class="ms-3">Improving Educational System</h2>
-            <p class="ms-3">At SOSD, we weave education into the fabric of existence, expanding knowledge and understanding. 
-                We cultivate a deep love for learning, showing youth that education is the cornerstone of a brighter future. 
-                Our efforts help local schools thrive, boost attendance, and transform curiosity into wisdom. 
-                We empower non-profits with the tools to maximize their social impact, fostering a community where every dreamer can drive change.
-            </p>
-        </div>
     </div>
 
 
 
     <!-- It Program details -->
     <div class="row program_detail_container text-white">
-        <div class="col d-flex program_detail_img justify-content-center align-items-center">
+        <div class="col-lg-6 col-md-12 d-flex program_detail_img justify-content-center align-items-center">
             <img class="program_image" src="../sosd_website/img/img6.jpg" >
         </div>
-        <div class="col custom-bg-blue-dark d-flex justify-content-center align-items-center">
+        <div class="col-lg-6 custom-bg-blue-dark d-flex justify-content-center align-items-center">
             <div class="container program_detail_text_col ms-5">
                 <div class="program_detail_heading mb-3">
                     <h1 class="mb-4">IT Program</h1>
@@ -170,10 +175,13 @@
 
     <!-- Dance program -->
     <div class="row program_detail_container text-white">
-        <div class="col custom-bg-blue-dark d-flex justify-content-center align-items-center">
+        <div class="col-lg-6 col-md-12 d-flex program_detail_img justify-content-center align-items-center">
+            <img class="program_image" src="../sosd_website/img/img6.jpg" >
+        </div>
+        <div class="col-lg-6 custom-bg-blue-dark d-flex justify-content-center align-items-center">
             <div class="container program_detail_text_col ms-5">
                 <div class="program_detail_heading mb-3">
-                    <h1 class="mb-4">DANCE Program</h1>
+                    <h1 class="mb-4">Dance Program</h1>
                     <h2>Discover the Magic of Dance!</h2>
                 </div>
                 
@@ -187,18 +195,14 @@
             </div>
 
         </div>
-        <div class="col d-flex justify-content-center align-items-center">
-            <img class="program_image" src="../sosd_website/img/img6.jpg" >
-        </div>
-
     </div>
 
-    <!-- It Program details -->
+    <!-- Primary details -->
     <div class="row program_detail_container text-white">
-            <div class="col d-flex justify-content-center align-items-center">
+            <div class="col-lg-6 col-md-12 d-flex justify-content-center align-items-center">
                 <img class="program_image" src="../sosd_website/img/img6.jpg" >
             </div>
-            <div class="col custom-bg-blue-dark d-flex justify-content-center align-items-center">
+            <div class="col-lg-6  custom-bg-blue-dark d-flex justify-content-center align-items-center">
                 <div class="container program_detail_text_col ms-5">
                     <div class="program_detail_heading mb-3">
                         <h1 class="mb-4">Primary Level</h1>
@@ -220,7 +224,10 @@
 
     <!-- Kindergarten program -->
     <div class="row program_detail_container text-white">
-        <div class="col custom-bg-blue-dark d-flex justify-content-center align-items-center">
+        <div class="col-lg-6 col-md-12 d-flex justify-content-center align-items-center">
+            <img class="program_image" src="../sosd_website/img/img6.jpg" >
+        </div>
+        <div class="col-lg-6  custom-bg-blue-dark d-flex justify-content-center align-items-center">
             <div class="container program_detail_text_col ms-5">
                 <div class="program_detail_heading mb-3">
                     <h1 class="mb-4">Kindergarten</h1>
@@ -233,23 +240,13 @@
                     journey. Our students explore a world of wonder,
                     where every activity sparks curiosity and a love for
                     learning. Begin your child's adventure with us!
-                </p> 
+                </p>
             </div>
-
         </div>
-        <div class="col d-flex justify-content-center align-items-center">
-            <img class="program_image" src="../sosd_website/img/img6.jpg" >
-        </div>
-
     </div>
 
-
-
-
-
-
     
-
+    <script src="https://kit.fontawesome.com/4b47bf3ce8.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
 </body>

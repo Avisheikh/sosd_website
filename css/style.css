@@ -67,28 +67,28 @@ li {
 }
 
 .navigation {
-    margin-top: 8px;
-    max-width: 100%;
-    height: 8vh;
-    border-bottom: 2px solid #007EA7;
-    border-top: 2px solid #007EA7;
+    width: 100%;
+    height: 10vh;
+    border-bottom: 3px solid #007EA7;
+    border-top: 3px solid #007EA7;
     font-family: "Alegreya", serif;
     font-weight: 500;
     font-style: normal;
     font-size: 1.8rem;
-    padding: 20px;
-    text-align:center;
-    
+    display: flex;
+    align-items: center;
+    background-color: #FFFFFF;
+    z-index: 1200;
 }
 
 .navigation_nav .navigation_list a {
-    padding: 14px 16px;
+    padding: 14px;
     text-decoration: none;
-    color: #007EA7
+    color: #007EA7;
 }
 
 .navigation_nav .navigation_list .left_list {
-    position: absolute;
+    position: relative;
     left: 10rem;
 }
 
@@ -98,22 +98,38 @@ li {
 }
 
 
-.navigation_nav .navigation_list .logo {
+.logo {
+    position: absolute;
+    left: 45%;
     font-weight: 700;
     font-style: normal;
     font-size: 4rem;
-
+    align-items: center;
 }
 
-.navigation_nav .navigation_list .logo a {
-    position: relative;
-    top: -20px;
+.logo a {
+    text-decoration: none;
+    color: #007EA7;
 }
+
+
+@media only screen and (max-width: 44.8em) {
+    .navigation_nav {
+        display: none;
+    }
+
+    .logo {
+        left: 0;
+        padding: 40px;
+    }
+}
+
 
 
 .program_list {
     background-color: #007EA7;
     height: 108vh;
+    overflow: hidden;
 }
 
 .img1 {
@@ -122,22 +138,112 @@ li {
 }
 
 .first_screen {
-    max-width: 100%;
-    max-height: 84vh;
+    min-width: 100%;
+    max-height: 100vh;
     overflow: hidden;
 }
 
 .program_list_box {
     width: 30rem;
-    height: 46rem;
-    margin-top: 10rem;
+    height: 45rem;
     border-radius: 3.4rem;
     box-shadow: 2px 2px 8px 4px rgba(0, 0, 0, 0.2);
 }
 
+
+
 .program_list_box:nth-child(-n+3) {
     margin-left: 22px;
 }
+
+@media only screen and (max-width: 1200px) {
+
+
+    .first_list_box, .second_list_box, .third_list_box, .fourth_list_box{
+       margin-left: 200px; 
+       position: relative;
+       top: 6rem; 
+    }
+
+    .third_list_box, .fourth_list_box{
+        margin-bottom: 48rem; 
+     }
+
+    .program_list_box:nth-child(-n+3) {
+        margin-left: -14.8rem;
+    }
+
+    .program_list_box {
+        width: 35rem;
+        height: 50rem;
+    }
+
+    .program_list {
+        height: 78vh;
+    }
+}
+
+@media only screen and (max-width: 960px) {
+    .program_list_box:nth-child(-n+3) {
+        margin-left: -180px;
+    }
+
+    .program_list {
+        min-height: 82vh;
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+    .program_list {
+        min-height: 94vh;
+    }
+}
+
+
+
+@media only screen and (max-width: 700px) {
+    .program_list_box:nth-child(-n+3) {
+        margin-left: -50px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .program_list_box:nth-child(-n+3) {
+        margin-left: -130px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .program_list_box:nth-child(-n+3) {
+        margin-left: -26px;
+    }
+
+    .program_list {
+        min-height: 148vh;
+    }
+}
+
+@media only screen and (max-width: 398px) {
+    .program_list_box:nth-child(-n+3) {
+        margin-left: -48px;
+    }
+
+    .program_list {
+        min-height: 162vh;
+    }
+}
+
+@media only screen and (max-width: 378px) {
+    .program_list_box:nth-child(-n+3) {
+        margin-left: -48px;
+    }
+
+    .program_list {
+        min-height: 206vh;
+    }
+}
+
 
 .custom-bg-white {
     background-color: #FFFFFF;
@@ -222,10 +328,34 @@ li {
     font-weight: 300;
 }
 
+.first_screen_text a{
+    text-decoration: none;
+    color: #007EA7;
+}
+
+@media only screen and (max-width: 1200px) {
+    .first_screen_text h1 {
+        font-size: 3.4rem;    
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .first_screen_text h1 {
+        font-size: 3rem;    
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .first_screen_text {
+        margin: 4rem 0 4rem 0;    
+    }
+}
+
 .gallery_btn{
-    width: 25%;
-    height: 25%;
+    width: 100%;
+    height: 50px;
     font-size:1.8rem ;
+    font-weight: bolder;
     color: #007EA7;
     background-color: #FFF;
     border: 3px solid #007EA7;
@@ -237,6 +367,18 @@ li {
     height: 42%;
     border-radius: 40px;
     box-shadow: -50px -50px 0px 0px rgb( 0, 126, 167);
+}
+@media only screen and (max-width:600px) {
+    .program_image{
+        width: 35rem;
+        margin-left: 6rem;
+    }
+}
+
+@media only screen and (max-width:430px) {
+    .program_image {
+        box-shadow: -30px -30px 0px 0px rgb( 0, 126, 167);
+    }    
 }
 
 
@@ -275,22 +417,50 @@ li {
 
 }
 
+@media only screen and (max-width: 1200px) {
+    .program_image {
+        width: 68%;
+        height: 24%;
+    }
+
+    .program_detail_container {
+        height: 80vh;
+    }
+}
+
+@media only screen and (max-width:990px) {
+
+    .program_image {
+        width: 68%;
+        height: 62%;
+        margin-top: 4rem;
+    }
+
+    .program_detail_text_col h2{
+        font-size: 3rem;
+    }
+
+    .program_detail_text_col p {
+        font-size: 2.4rem;
+        width: 100%;    
+    }
+
+}
+
 .slide img{
     width: 100%;
     height: 44rem;
     object-fit: cover;
 }
 
-.thrid_screen-texts {
-    width: 100%;
-    height: 40vh;
-}
+
 
 .thrid_screen-texts h1 {
-    font-size: 6rem;
+    font-size: 5rem;
     font-weight: 500;
     font-family: "Alegreya", sans-serif;
     color: #007EA7;
+    border-bottom: 6px solid #007EA7;
 }
 
 .thrid_screen-texts h2 {
@@ -307,7 +477,172 @@ li {
     color: #007EA7;
 }
 
-.program_detail_img {
-    border-top: 60px solid #007EA7;
+@media only screen and (min-width: 700px) {
+    .thrid_screen-texts h1{
+        font-size: 4rem;
+        border-bottom: 4px solid #007EA7;
+    }
 }
 
+@media only screen and (max-width: 700px) {
+
+    .thrid_screen-texts {
+        text-align: center;
+    }
+
+    .thrid_screen-texts h1{
+        font-size: 3.2rem;
+        border-bottom: 3px solid #007EA7;
+    }
+
+    .thrid_screen-texts h2 {
+        font-size: 2.6rem;
+    }
+
+    .thrid_screen-texts p {
+        width: 96%;
+    }
+}
+
+
+.hamburger-container {
+    display: none;
+    font-size: 28px;
+    color: #007EA7;
+}
+
+@media only screen and (max-width: 44.8em) {
+    .hamburger-container {
+        position: absolute;
+        display: block;
+        right: 0;
+        padding: 50px;
+    }
+}
+
+@media only screen and (max-width: 390px) {
+
+    .program_detail_heading{
+        text-align: center;
+    }
+        
+    .program_detail_heading h1{
+        font-size: 6rem;   
+    }
+
+    .program_detail_heading h2{
+        font-size:2.7rem ;
+    }
+
+    .program_detail_text_col p{
+        font-size: 1.8rem;
+        text-align: center;
+    }
+    
+}
+
+
+.content_us_box{
+    background-color: #007EA7;
+    width: 100%;
+    height: 75px;
+    font-family: "Alegreya", serif ;
+}
+
+
+.contact_text{
+    color: white;
+    text-align: center;
+    padding-top: 5px;
+    font-size: 5rem;
+}
+
+
+.email_text_box{
+    position: relative;
+    background-color: #007EA7;
+    width: 25rem;
+    height: 10.4rem;
+    top: 7rem;
+    left: 3rem;
+    border-radius: 10px;
+}
+
+
+.white_box{
+    position: absolute;
+    width: 0.5rem;
+    height: 10.4rem;
+    background-color: #ffffff;
+    margin-left: 7rem;
+
+}
+
+.email_text_box i {
+    font-size: 4rem;
+    margin-left: 1.5rem;
+    color: #ffffff;
+}
+
+
+.email_text_box-p {
+
+    font-size: 1.6rem;
+    margin-left: 3.2rem;
+    bottom: 1rem;
+    color: #ffffff;
+}
+
+.send_massage_to_us_box{
+    background-color: #007EA7;
+    width: 100%;
+    height: 75px;
+    font-family: "Alegreya", serif ;
+    margin-top: 14rem;
+
+}
+
+
+.send_massage_to_us_box h1 {
+    font-size: 3rem;
+    margin-left: 60rem;
+    color: #ffffff;
+    font-family: "Alegreya", serif ;
+}
+
+
+
+.form_group{
+    margin: 3rem;
+    
+}
+
+
+.form input {
+    margin-left: 10rem;
+    width: 30%;
+    height: 4rem;
+    font-size: 1.5rem;
+    border-radius: 1.5rem;
+}
+
+button{
+    background-color: #FF0000;
+    width: 15%;
+    height: 4rem;
+    border-radius: 1.5rem;
+    margin-left: 10rem;
+}
+
+
+.send_message_button{
+    border: 4rem;
+}
+
+form input {
+    height: 4rem;
+}
+
+.navigation {
+    position: fixed;
+}
