@@ -1,4 +1,4 @@
-
+        
 /*
     0-600px:        phone
     600-900px:      tablet
@@ -470,5 +470,14 @@ li {
         right: 0;
         padding: 50px;
     }
+ 
+    
 }
+@media only screen and (max-width:768px) 
+    .program_detail_container img  {
+      margin-left: 40px;
+      width: 410px;
+     
 
+      
+}
