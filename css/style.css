@@ -158,7 +158,7 @@ li {
 
 @media only screen and (max-width: 1200px) {
 
-
+ 
     .first_list_box, .second_list_box, .third_list_box, .fourth_list_box{
        margin-left: 200px; 
        position: relative;
@@ -454,10 +454,14 @@ li {
     object-fit: cover;
 }
 
+.thrid_screen-texts {
+    margin-top: 11rem;
+}
+
 
 
 .thrid_screen-texts h1 {
-    font-size: ;
+    font-size: 4rem;
     font-weight: 500;
     font-family: "Alegreya", sans-serif;
     color: #007EA7;
@@ -465,18 +469,18 @@ li {
 }
 
 .thrid_screen-texts h2 {
-    font-size: 3.5rem;
+    font-size: 2.2rem;
     font-weight: 500;
     font-family: "Alegreya", sans-serif;
     color: #007EA7;
 }
 
 .thrid_screen-texts p {
-    font-size: 2.0rem;
+    font-size: 1.6rem;
     font-weight: 500;
     font-family: "Alegreya-sans", sans-serif;
     color: #007EA7;
-    line-height: 4.5rem;
+    line-height: 2.6;
 }
 
 @media only screen and (min-width: 700px) {
@@ -651,12 +655,22 @@ form input {
 
 
 .thrid_screen{
-    height: 130vh;
+    height: 120vh;
 
 }
 
-
-.thrid_screen-texts h1, h2, p{
-    text-align: center;
-    
+@media only screen and (max-width:400px){
+    .thrid_screen{
+       max-height: 100vh;
+    }
 }
+
+
+
+
+
+
+
+
+
+
