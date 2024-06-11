@@ -338,7 +338,7 @@ li {
     left:400px;
     top:40px;
     padding:25 px;
-    font-family:"alegreya", "serif";
+    
 }
 .important_links_head{
     position: absolute;
@@ -348,17 +348,20 @@ li {
     font-size:25px;
     color: #FFFFFF;
     left: 10px;
-    text-shadow:"alegreya", "serif";
+    font-family:"alegreya", "serif";
 }
 .important_links_pragreph{
     position: absolute;
     top: 50px;
     left: 26px;
+    line-height:2.3;
+    
+    
 }
 .quick_links{
     position: absolute;
     width: 320px;
-    font-size: 20px;
+    font-size: 23px;
     color: #FFFFFF;
     left:700px;
     top:40px;
@@ -369,21 +372,23 @@ li {
     position: absolute;
     width:320px;
     padding: 20px;
-    top: 20px;
+    top: 24px;
     font-size:25px;
     color: #FFFFFF;
     left: 780px;
-    text-shadow:"alegreya", "serif"
-}
-.quick_links_pragreph{
-    position: absolute;
-    top: 7px;
-    color: #FFFFFF;
-    width: 100px;
-    left: 801px;
-    font-size: 20px;
     font-family:"alegreya", "serif";
-    padding: 1%;
+}
+.quick_links_pragraph{
+    position: absolute;
+    color: #FFFFFF;
+    width: 12%;
+    font-size: 20px;
+    left: 800px;
+    top: 90px;
+    line-height: 2.8;
+    
+
+
 }
 
 
@@ -404,8 +409,6 @@ li {
 
 
 
-
-}
 .image_honeycomb1 image{
     width:40rem ;
     height: 20rem;
@@ -413,7 +416,4 @@ li {
 .image_honeycomb2 image{
     width:40rem ;
     height: 20rem;
-}
-.important_links_pragreph{
-    po
 }
