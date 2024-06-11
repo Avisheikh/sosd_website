@@ -611,7 +611,7 @@ li {
 
 .send_massage_to_us_box h1 {
     font-size: 3rem;
-    margin-left: 60rem;
+
     color: #ffffff;
     font-family: "Alegreya", serif ;
 }
@@ -664,7 +664,6 @@ form input {
        max-height: 100vh;
     }
 }
-
 
 
 
