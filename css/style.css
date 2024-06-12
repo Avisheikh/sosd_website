@@ -128,18 +128,17 @@ li {
 
 .program_list {
     background-color: #007EA7;
-    height: 108vh;
+    height: 100vh;
     overflow: hidden;
 }
 
 .img1 {
-    width: 108%;
-    height: max-content;
+    width: 100%;
 }
 
 .first_screen {
-    min-width: 100%;
-    max-height: 110vh;
+    width: 100%;
+    max-height: 100vh;
     overflow: hidden;
 }
 
@@ -200,8 +199,6 @@ li {
     }
 }
 
-
-
 @media only screen and (max-width: 700px) {
     .program_list_box:nth-child(-n+3) {
         margin-left: -50px;
@@ -261,6 +258,10 @@ li {
     color: #00A8E8;
 }
 
+.custom-text-dark-blue {
+    color: #007ea7;
+}
+
 
 .primary_level_img {
     width: 310px;
@@ -308,6 +309,7 @@ li {
 .first_screen_text{
     color: #007EA7;
 }
+
 
 .first_screen_text h1 {
     font-family:"alegreya","serif";
@@ -454,11 +456,6 @@ li {
     object-fit: cover;
 }
 
-.thrid_screen-texts {
-    margin-top: 11rem;
-}
-
-
 
 .thrid_screen-texts h1 {
     font-size: 4rem;
@@ -497,7 +494,6 @@ li {
 
     .thrid_screen-texts h1{
         font-size: 3.2rem;
-        border-bottom: 3px solid #007EA7;
     }
 
     .thrid_screen-texts h2 {
@@ -653,17 +649,12 @@ form input {
     position: fixed;
 }
 
-
-.thrid_screen{
-    height: 120vh;
-
+.headline {
+    width: 100%;
 }
 
-@media only screen and (max-width:400px){
-    .thrid_screen{
-       max-height: 100vh;
-    }
-}
+
+
 
 
 
