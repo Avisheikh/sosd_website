@@ -665,6 +665,17 @@ form input {
 
 }
 
+.first_list_box{
+    position: absolute;
+    width: 25%;
+    height: 45%;
+    background-color:rgba(0,0,0,.44);
+    margin-left: 90rem;
+   
+}
+
+
+
 
 
 
