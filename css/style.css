@@ -666,13 +666,35 @@ form input {
 }
 
 
+.screen_img {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    left: 6%;
+    top: 22%;
+}
+
+.second_screen_text {
+    position: absolute;
+    left: 47%;
+    width: 28%;
+    height: 10%;
+    font-family: "Alegreya", serif;
+    top: 45%;
+}
 
 
+.second_screen_paragreph {
+    position: absolute;
+    font-size: 180%;
+    width: 150%;
+}
 
+.second_screen_heading {
+    position: absolute;
+    font-size: 50%;
+    height: 10%;
+    width: 100%;
 
-
-
-
-
-
+}
 
