@@ -570,7 +570,6 @@ li {
     width: 25rem;
     height: 10.4rem;
     top: 7rem;
-    left: 3rem;
     border-radius: 10px;
 }
 
@@ -611,7 +610,6 @@ li {
 
 .send_massage_to_us_box h1 {
     font-size: 3rem;
-    margin-left: 60rem;
     color: #ffffff;
     font-family: "Alegreya", serif ;
 }
@@ -665,12 +663,28 @@ form input {
     }
 }
 
+@media only screen and (max-width: 990px) {
+    .nav_bar{
+        margin-left: 26.5rem;
+        margin-top: 2rem;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .nav_bar{
+        margin-left: 30rem;
+    }
+}
 
 
+@media only screen and (max-width: 768px) {
+    .nav_bar{
+        margin-left: 0;
+    }
+}
 
 
+/* @media only screen and (max-width: 768px) {
 
-
-
-
-
+    .nav_bar-style{margin-top: 2rem;}
+} */
