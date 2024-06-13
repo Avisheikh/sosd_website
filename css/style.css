@@ -146,7 +146,7 @@ li {
 
 .program_list_box {
     width: 30rem;
-    height: 45rem;
+    height: 40rem;
     border-radius: 3.4rem;
     box-shadow: 2px 2px 8px 4px rgba(0, 0, 0, 0.2);
 }
@@ -155,6 +155,17 @@ li {
 
 .program_list_box:nth-child(-n+3) {
     margin-left: 22px;
+}
+
+@media only screen and (min-width: 1200px) {
+
+    .program_list_box {
+        margin-top: 16rem;
+    }
+
+    .program_list_box:nth-child(-n+3) {
+        margin-left: 48px;
+    }
 }
 
 @media only screen and (max-width: 1200px) {
@@ -664,6 +675,8 @@ form input {
 	color:rgba(0,0,0,.44);
 
 }
+
+
 
 
 
